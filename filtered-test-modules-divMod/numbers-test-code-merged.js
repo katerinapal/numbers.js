@@ -214,6 +214,7 @@ describe('numbers', function () {
     done();
   });
 
+  /*
   // basic.min
   test('basic.min will throw an exception if argument is not an array.', function (done) {
     assert.throws(
@@ -250,7 +251,7 @@ describe('numbers', function () {
     assert.equal(basic.isInt('2'), true); //based off impelementation change
     assert.equal(basic.isInt(2), true);
     done();
-  });
+  });*/
 
   // basic.divMod
   test('divMod should return an array of both the division and modulus values of two integers', function (done) {
@@ -267,6 +268,8 @@ describe('numbers', function () {
     });
     done();
   });
+
+  /*
 
   // basic.egcd
   test('egcd should throw an exception when given a decimal', function (done) {
@@ -378,4 +381,8 @@ describe('numbers', function () {
     done();
   });
 
+  */
+
 });
+
+

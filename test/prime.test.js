@@ -2,11 +2,11 @@ var assert = require('assert');
 var numbers = require('../index.js');
 var prime = numbers.prime;
 
-suite('numbers', function () {
+describe('numbers', function () {
   var primes = [2, 17, 839, 3733, 999983];
   var composites = [1, 4, 18, 25, 838, 3007];
 
-  console.log('\n\n\033[34mTesting Prime Number Mathematics\033[0m');
+  console.log('\n\n\\033[34mTesting Prime Number Mathematics\\033[0m');
 
   // prime.simple
   test('simple should be able to determine if a number is prime or not', function (done) {

@@ -2,9 +2,9 @@ var assert = require('assert');
 var numbers = require('../index.js');
 var generate = numbers.generate;
 
-suite('numbers', function () {
+describe('numbers', function () {
 
-  console.log('\n\n\033[34mTesting Generators\033[0m');
+  console.log('\n\n\\033[34mTesting Generators\\033[0m');
 
   //numbers.generate.fibonacci
   test('Should generate the nth fibonacci number', function (done) {

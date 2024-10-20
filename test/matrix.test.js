@@ -2,9 +2,9 @@ var assert = require('assert');
 var numbers = require('../index.js');
 var matrix = numbers.matrix;
 
-suite('numbers', function () {
+describe('numbers', function () {
 
-  console.log('\n\n\033[34mTesting Matrix Mathematics\033[0m');
+  console.log('\n\n\\033[34mTesting Matrix Mathematics\\033[0m');
 
   test('should create a deep copy of a matrix', function (done) {
     var input = [

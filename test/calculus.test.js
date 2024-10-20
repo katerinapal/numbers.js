@@ -2,9 +2,9 @@ var assert = require('assert');
 var numbers = require('../index.js');
 var calculus = numbers.calculus;
 
-suite('numbers', function () {
+describe('numbers', function () {
 
-  console.log('\n\n\033[34mTesting Calculus Mathematics\033[0m');
+  console.log('\n\n\\033[34mTesting Calculus Mathematics\\033[0m');
 
   test('pointDiff should return the derivative at a point, provided function', function (done) {
     var func = function (x) {

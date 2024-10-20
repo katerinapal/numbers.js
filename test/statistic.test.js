@@ -3,9 +3,9 @@ var numbers = require('../index.js');
 var statistic = numbers.statistic;
 var basic = numbers.basic;
 
-suite('numbers', function () {
+describe('numbers', function () {
 
-  console.log('\n\n\033[34mTesting Statistics Mathematics\033[0m');
+  console.log('\n\n\\033[34mTesting Statistics Mathematics\\033[0m');
 
   test('mean should return average value amongst integers in an array', function (done) {
     var res = statistic.mean([0, 1, 2]);

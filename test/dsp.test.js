@@ -2,9 +2,9 @@ var assert = require('assert');
 var numbers = require('../index.js');
 var dsp = numbers.dsp;
 
-suite('numbers', function () {
+describe('numbers', function () {
 
-  console.log('\n\n\033[34mTesting DSP Tools\033[0m');
+  console.log('\n\n\\033[34mTesting DSP Tools\\033[0m');
 
   test('segment should return a sample of the input array', function (done) {
     var res = dsp.segment([1, 2, 3, 4, 5, 6, 7, 8, 9], 2, 3),

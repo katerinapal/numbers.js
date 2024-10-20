@@ -3,9 +3,9 @@ var numbers = require('../index.js');
 var Complex = numbers.complex;
 var basic = numbers.basic;
 
-suite('numbers', function () {
+describe('numbers', function () {
 
-  console.log('\n\n\033[34mTesting Complex Numbers\033[0m');
+  console.log('\n\n\\033[34mTesting Complex Numbers\\033[0m');
 
   test('add should return the sum of two complex numbers', function (done) {
     var A = new Complex(3, 4);

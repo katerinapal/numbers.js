@@ -5,8 +5,8 @@ var random = numbers.random;
 var testing = require('./testing.js');
 var seedrandom = require("seedrandom");
 
-suite('numbers', function () {
-  console.log('\n\n\033[34mTesting Random Mathematics\033[0m');
+describe('numbers', function () {
+  console.log('\n\n\\033[34mTesting Random Mathematics\\033[0m');
 
   // seed random number generator for predictablity.
   random.setGenerator(seedrandom("this SEED value should be random enough..."));
